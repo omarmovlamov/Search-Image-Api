@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.Search-div form {
+  background-color: transparent;
+
+  border-bottom: none;
+  border-radius: 7px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  transform: scale(0.9);
+  transition: 0.4s ease-in transform;
+}
+.Search-div form label {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 5px gray;
+}
+.Search-div form input {
+  width: 60rem;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  border: 1px solid gray;
+}
+.Search-div form input:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.Search-div form input:hover::placeholder {
+  color: #fff;
+}
+.Search-div form:hover {
+  color: white;
+  transform: scale(1);
+  border-bottom: 1px solid white;
+}
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+  margin: 0 1em;
+}
+.image {
+  width: 100%;
+  max-height: 300px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #570202a4;
+  border-left: 3px solid #570202a4;
+  padding: 2px;
+  border-radius: 5px;
+  transform: scale(0.98);
+}
+.image:hover {
+  border-top: 3px solid rgba(180, 103, 2, 0.658);
+  border-right: 3px solid rgba(180, 103, 2, 0.658);
+  border-bottom: none;
+  border-left: none;
+  transform: scale(1);
+  padding: 0px;
+}
