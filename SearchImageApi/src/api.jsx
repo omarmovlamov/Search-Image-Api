@@ -5,7 +5,7 @@ const searchImages = async (term) => {
     `https://api.unsplash.com/search/photos?query=${term}`,
     {
       headers: {
-        Authorization: "Client-ID SR6L9eFpwsYbK0QgKL-kWY7Nybc0GNDidE5laVXNXVI",
+        Authorization: "Client-ID //key",
       },
     }
   );
